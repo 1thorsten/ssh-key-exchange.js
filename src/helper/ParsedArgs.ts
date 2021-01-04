@@ -54,7 +54,7 @@ function handleArgs(): Opts {
         {
             names: ['password', 'p'],
             type: 'string',
-            help: 'ssh password'
+            help: 'ssh password (if you do not specify it you will be asked)'
         },
         {
             names: ['rsaPrivPath', 'a'],
