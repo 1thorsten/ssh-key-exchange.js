@@ -1,6 +1,6 @@
 {
 	"name": "ssh-key-exchange.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Exchange ssh keys the easy way",
 	"private": true,
 	"scripts": {
