@@ -46,6 +46,17 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test: /\.node$/,
+                use: [
+                    {
+                        loader: 'raw-loader',
+                        options: {
+                            esModule: false,
+                        },
+                    },
+                ],
+            }
         ],
     },
     resolve: {
