@@ -3,15 +3,16 @@
     "module": "commonjs",
     "outDir": "src-js",
     "incremental": true,
-    "target": "es2019",
+    "target": "ES2022",
     "sourceMap": true,
     "skipLibCheck": false,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "esModuleInterop": true,
     "lib": [
-      "es2018"
+      "ES2022"
     ],
     "types": [
       "node"
